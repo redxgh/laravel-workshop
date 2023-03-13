@@ -17,3 +17,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/hello',  [helloController::class, 'getPage']);
+Route::get('/contact', function () {
+    return view('contact');
+});
