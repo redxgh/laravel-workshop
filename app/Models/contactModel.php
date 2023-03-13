@@ -12,4 +12,8 @@ class contactModel extends Model
     {
         return 'contact us';
     }
+    public function getMail()
+    {
+        return 'graed806@gmail.com';
+    }
 }

@@ -11,7 +11,10 @@
 <body>
     <div class="container">
         <h1>Contact page</h1>
-        {{ $comp }}
+        <h2>{{ $comp }}</h2>
+        <h2>
+            our mail : {{ $mail }}
+        </h2>
     </div>
 </body>
 
