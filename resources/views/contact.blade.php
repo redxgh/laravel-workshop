@@ -13,9 +13,9 @@
         {{ $true = false }}
 
         @for ($i = 0; $i <= 10; $i++)
-            <p>
+            <span>
                 number : {{ $i }}
-            </p>
+            </span>
         @endfor
         @if ($true)
             <h1>true</h1>
