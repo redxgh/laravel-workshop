@@ -14,7 +14,6 @@
     </h1>
     @foreach ($msg as $fruit)
         <h2>This is fruit : {{ $fruit }}</h2>
-        <h2>fruits website weeee</h2>
     @endforeach
 </body>
 
