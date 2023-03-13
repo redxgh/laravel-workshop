@@ -11,7 +11,6 @@
 <body>
     <div class="container">
         {{ $true = false }}
-
         @for ($i = 0; $i <= 10; $i++)
             <span>
                 number : {{ $i }}
