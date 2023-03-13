@@ -12,6 +12,7 @@ class contactController extends Controller
         $mod = new contactModel();
         $comp = $mod->getComp();
         $mail = $mod->getMail();
-        return view('contact', ['comp' => $comp, 'mail' => $mail]);
+        $phone = $mod->getPhone();
+        return view('contact', ['comp' => $comp, 'mail' => $mail, 'phone' => $phone]);
     }
 }

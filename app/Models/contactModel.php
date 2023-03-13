@@ -16,4 +16,8 @@ class contactModel extends Model
     {
         return 'graed806@gmail.com';
     }
+    public function getPhone()
+    {
+        return 29189758;
+    }
 }

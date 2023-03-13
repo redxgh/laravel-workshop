@@ -15,6 +15,9 @@
         <h2>
             our mail : {{ $mail }}
         </h2>
+        <h2>
+            our phone : {{ $phone }}
+        </h2>
     </div>
 </body>
 
