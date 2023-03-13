@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\contactController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\helloController;
 /*
@@ -17,6 +18,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/hello',  [helloController::class, 'getPage']);
-Route::get('/contact', function () {
-    return view('contact');
-});
+Route::get('/contact', [contactController::class, 'getContact']);
