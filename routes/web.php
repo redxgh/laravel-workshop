@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\contactController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\helloController;
 /*
@@ -16,4 +17,3 @@ use App\Http\Controllers\helloController;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/hello',  [helloController::class, 'getPage']);
