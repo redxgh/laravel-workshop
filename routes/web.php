@@ -1,8 +1,6 @@
 <?php
 
-use App\Http\Controllers\contactController;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\helloController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
