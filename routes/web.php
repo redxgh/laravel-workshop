@@ -17,5 +17,3 @@ use App\Http\Controllers\helloController;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/hello',  [helloController::class, 'getPage']);
-Route::get('/contact', [contactController::class, 'getContact']);
